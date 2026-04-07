@@ -1,0 +1,13 @@
+.terraform/
+infra/.terraform/
+
+*.tfstate
+*.tfstate.*
+
+*.backup
+*.tfvars
+*.tfvars.json
+
+#mantener sí o sí conservar
+!/.terraform.lock.hcl
+!Infra/.terraform.lock.hcl
